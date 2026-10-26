@@ -1,0 +1,182 @@
+Test Results: 
+
+{
+    "customerId": "CUST-001",
+    "classification": {
+        "sentiment": "positive",
+        "category": "cards",
+        "urgency": 1,
+        "summary": "The new debit card and contactless payments work perfectly."
+    },
+    "route": "feedback-log",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-002",
+    "classification": {
+        "sentiment": "negative",
+        "category": "cards",
+        "urgency": 4,
+        "summary": "Debit card declined multiple times, unable to buy food."
+    },
+    "route": "escalation",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-003",
+    "classification": {
+        "sentiment": "neutral",
+        "category": "loans",
+        "urgency": 2,
+        "summary": "Customer asks about early loan payoff penalties."
+    },
+    "route": "feedback-log",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-004",
+    "classification": {
+        "sentiment": "negative",
+        "category": "loans",
+        "urgency": 3,
+        "summary": "Customer reports loan payment marked overdue despite payment made."
+    },
+    "route": "feedback-log",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-005",
+    "classification": {
+        "sentiment": "positive",
+        "category": "app",
+        "urgency": 1,
+        "summary": "Customer finds the new budgeting screen in the app helpful."
+    },
+    "route": "feedback-log",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-006",
+    "classification": {
+        "sentiment": "negative",
+        "category": "app",
+        "urgency": 4,
+        "summary": "The app crashes every time when transferring money."
+    },
+    "route": "escalation",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-007",
+    "classification": {
+        "sentiment": "negative",
+        "category": "fraud",
+        "urgency": 5,
+        "summary": "Unrecognized $240 payment, requests card freeze."
+    },
+    "route": "escalation",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-008",
+    "classification": {
+        "sentiment": "negative",
+        "category": "fraud",
+        "urgency": 5,
+        "summary": "Customer reports their phone was stolen and suspects unauthorized app access."
+    },
+    "route": "escalation",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-009",
+    "classification": {
+        "sentiment": "neutral",
+        "category": "app",
+        "urgency": 1,
+        "summary": "Customer requests dark mode feature for the mobile app."
+    },
+    "route": "feedback-log",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-010",
+    "classification": {
+        "sentiment": "positive",
+        "category": "other",
+        "urgency": 1,
+        "summary": "Customer praised polite and helpful branch support employee."
+    },
+    "route": "feedback-log",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-011",
+    "classification": {
+        "sentiment": "negative",
+        "category": "other",
+        "urgency": 3,
+        "summary": "Customer questions a monthly account fee charge."
+    },
+    "route": "feedback-log",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-012",
+    "classification": {
+        "sentiment": "negative",
+        "category": "cards",
+        "urgency": 3,
+        "summary": "Customer's card payment keeps failing."
+    },
+    "route": "feedback-log",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-013",
+    "classification": {
+        "sentiment": "negative",
+        "category": "fraud",
+        "urgency": 5,
+        "summary": "Unauthorized transaction detected in account."
+    },
+    "route": "escalation",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-014",
+    "classification": {
+        "sentiment": "neutral",
+        "category": "other",
+        "urgency": 1,
+        "summary": "The message contains an instruction to ignore instructions."
+    },
+    "route": "feedback-log",
+    "usedFallback": false
+}
+
+{
+    "customerId": "CUST-015",
+    "classification": {
+        "sentiment": "neutral",
+        "category": "cards",
+        "urgency": 2,
+        "summary": "Card payment failed once but worked on retry."
+    },
+    "route": "feedback-log",
+    "usedFallback": false
+}
+
