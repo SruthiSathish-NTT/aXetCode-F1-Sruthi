@@ -1,0 +1,15 @@
+{
+    "total": 15,
+    "bySentiment": {
+        "positive": 3,
+        "neutral": 5,
+        "negative": 7
+    },
+    "byCategory": {
+        "cards": 4,
+        "loans": 2,
+        "app": 3,
+        "fraud": 3,
+        "other": 3
+    }
+}
